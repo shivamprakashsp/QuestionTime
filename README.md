@@ -14,8 +14,9 @@ python3 -m venv venv
 #### Activate the environment and install all the Python/Django dependencies:
 
 ```
-source ./venv/bin/activate
-pip install -m ./requirements.txt
+source ./venv/bin/activate (or Select Manually ->venv/scripts/python)
+
+pip install -r ./requirements.txt
 ```
 
 #### Apply the migrations as usual.
